@@ -5,7 +5,7 @@ def find_even_values(src)
     element_index = 0
     while element_index < src[row_index].length do
       src[row_index][element_index].even?
-      even_numbers << src[row_index][element_index]
+      puts even_numbers << src[row_index][element_index]
       element_index += 1
 
     end
